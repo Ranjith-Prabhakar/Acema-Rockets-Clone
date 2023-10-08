@@ -44,4 +44,16 @@ take the live server extention and click on the setting icon and type reload ful
   tailwind ordering 
 15.we can run any of the script at once 
 16.npm run tailwind >to run tailwind  
-
+17.to use custome media queries we have to set it up in the tailwind.config.js  >module.exports = {
+  content: ["./build/*.html"],
+  theme: {
+    extend: {
+      screens: {
+        'widescreen': { 'raw': '(min-aspect-ratio:3/2)' },
+        'tallscreen': { 'raw': '(min-aspect-ratio:1/2)' },
+      }
+    },
+  },
+  plugins: [],
+}
+18.after the above step we can use the custome class along with the setting like widescreen:section-min-height for compouter and tallscreen:section-min-height for mobile devices

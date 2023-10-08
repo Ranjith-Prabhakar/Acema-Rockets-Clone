@@ -1055,3 +1055,19 @@ video {
     display: flex;
   }
 }
+
+@media (min-aspect-ratio:3/2) {
+  .widescreen\:section-min-height{
+    min-height: calc(100vh - 68px);
+    /*in header section there is a h1 tag have a line height of 36 and for section there is a class p4 which will apply 16px for top and 16px for bottom also*/
+    /* to use the custom css media query we have to set it up in tss config file */
+  }
+}
+
+@media (min-aspect-ratio:1/2) {
+  .tallscreen\:section-min-height{
+    min-height: calc(100vh - 68px);
+    /*in header section there is a h1 tag have a line height of 36 and for section there is a class p4 which will apply 16px for top and 16px for bottom also*/
+    /* to use the custom css media query we have to set it up in tss config file */
+  }
+}
