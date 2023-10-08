@@ -43,5 +43,5 @@ take the live server extention and click on the setting icon and type reload ful
   here we installed prettier plug in for auto arranging the class lists what we uses here according to the 
   tailwind ordering 
 15.we can run any of the script at once 
-16.run tailwind  npm run tailwind
+16.npm run tailwind >to run tailwind  
 
